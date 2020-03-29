@@ -1,0 +1,11 @@
+server:
+  port:
+    9000
+spring:
+  application:
+    name: ad-gateway
+    allow-bean-definition-overriding: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/

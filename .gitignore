@@ -1,0 +1,12 @@
+.idea
+.settings
+target
+.DS_Store
+/target
+ad-gateway/target
+ad-eureka/target
+imooc-ad-service/target
+/src/main/frontend/node
+/src/main/frontend/node_modules
+.classpath
+.project
