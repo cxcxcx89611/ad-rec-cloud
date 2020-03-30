@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/imooc-ad-service/ad-common/ad-common.iml" filepath="$PROJECT_DIR$/imooc-ad-service/ad-common/ad-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/ad-eureka/ad-eureka.iml" filepath="$PROJECT_DIR$/ad-eureka/ad-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/ad-gateway/ad-gateway.iml" filepath="$PROJECT_DIR$/ad-gateway/ad-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/ad-sponsor.iml" filepath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/ad-sponsor.iml" />
       <module fileurl="file://$PROJECT_DIR$/imooc-ad.iml" filepath="$PROJECT_DIR$/imooc-ad.iml" />
       <module fileurl="file://$PROJECT_DIR$/imooc-ad-service/imooc-ad-service.iml" filepath="$PROJECT_DIR$/imooc-ad-service/imooc-ad-service.iml" />
     </modules>
