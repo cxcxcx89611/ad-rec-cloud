@@ -35,6 +35,10 @@ public class Creative {
     private Integer height;
 
     @Basic
+    @Column(name = "wideth", nullable = false)
+    private Integer width;
+
+    @Basic
     @Column(name = "size", nullable = false)
     private Long size;
 
