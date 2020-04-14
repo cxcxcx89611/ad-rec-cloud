@@ -181,7 +181,7 @@
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.31" level="project" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.9" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-collections4:4.0" level="project" />
-    <orderEntry type="library" name="Maven: com.github.shyiko:mysql-binlog-connector-java:0.13.0" level="project" />
+    <orderEntry type="library" name="Maven: com.github.shyiko:mysql-binlog-connector-java:0.17.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-configuration-processor:2.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.kafka:spring-kafka:2.1.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.0.6.RELEASE" level="project" />
