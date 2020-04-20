@@ -20,6 +20,7 @@ import com.imooc.ad.search.vo.feature.ItFeature;
 import com.imooc.ad.search.vo.feature.KeywordFeature;
 import com.imooc.ad.search.vo.media.AdSlot;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.CollectionUtils;
 import org.springframework.stereotype.Service;
@@ -78,7 +79,20 @@ public class SearchImpl implements ISearch {
             } else {
                 targetUnitIdSet = getORRelationUnitIds(adUnitIdSet, keywordFeature, districtFeature, itFeature);
             }
+
+            List<AdUnitObject> unitObjects = DataTable.of(AdUnitIndex.class).fetch(targetUnitIdSet);
+
+            filterAdUnitAndPlanStatus(unitObjects,CommonStatus.VALID);
+
+            List<Long> adIds = DataTable.of(CreativeUnitIndex.class).selectAds(unitObjects);
+
+            List<CreativeObject> creativeObjects = DataTable.of(CreativeIndex.class).fetch(adIds);
+
+            filterCreativeByAdSlot(creativeObjects, adSlot.getWidth(), adSlot.getWidth(), adSlot.getType());
+
+            adSlot2Ads.put(adSlot.getAdSlotCode(), buildCreativeResponse(creativeObjects));
         }
+        log.info("fetch ads: {} --- {]", JSON.toJSONString(request), JSON.toJSONString(searchResponse));
         return null;
     }
 
@@ -130,5 +144,32 @@ public class SearchImpl implements ISearch {
                     adUnitId -> DataTable.of(UnitItIndex.class)
                             .match(adUnitId, itFeature.getIts()));
         }
+    }
+
+    private void filterAdUnitAndPlanStatus(List<AdUnitObject> unitObjects, CommonStatus status) {
+        if(CollectionUtils.isEmpty(unitObjects)) {
+            return;
+        }
+        CollectionUtils.filter(unitObjects, object -> object.getUnitStatus().equals(status.getStatus())
+                && object.getAdPlanObject().getPlanStatus().equals(status.getStatus()));
+    }
+
+    private  void filterCreativeByAdSlot(List<CreativeObject> creativeObjects,
+                                         Integer width, Integer height, List<Integer> type) {
+        if(CollectionUtils.isEmpty(creativeObjects)) {
+            return;
+        }
+        CollectionUtils.filter(creativeObjects, creativeObject -> creativeObject.getAuditStatus().equals(CommonStatus.VALID)
+                && creativeObject.getWidth().equals(width)
+                && creativeObject.getHeight().equals(height)
+                && type.contains(creativeObject.getType()));
+    }
+
+    private List<SearchResponse.Creative> buildCreativeResponse(List<CreativeObject> creatives) {
+        if(CollectionUtils.isEmpty(creatives)) {
+            return Collections.EMPTY_LIST;
+        }
+        CreativeObject randomObject = creatives.get(Math.abs(new Random().nextInt())%creatives.size());
+        return Collections.singletonList(SearchResponse.convert(randomObject));
     }
 }
