@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-@Component
+@Component("dataTable")
 public class DataTable implements ApplicationContextAware, PriorityOrdered {
 
     private static  ApplicationContext applicationContext;

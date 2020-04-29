@@ -8,12 +8,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AdCreativeTable {
-    private Long adId;
+    private Long id;
     private String name;
     private Integer type;
     private Integer materialType;
     private Integer height;
     private Integer width;
     private Integer auditStatus;
-    private String adUrl;
+    private String url;
 }

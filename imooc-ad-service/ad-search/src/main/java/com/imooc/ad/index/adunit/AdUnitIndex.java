@@ -59,8 +59,9 @@ public class AdUnitIndex implements IndexAware<Long, AdUnitObject> {
     }
 
     public List<AdUnitObject> fetch(Collection<Long> adUnitIds) {
+
         if (CollectionUtils.isEmpty(adUnitIds)) {
-            return Collections.EMPTY_LIST;
+            return Collections.emptyList();
         }
 
         List<AdUnitObject> result = new ArrayList<>();
@@ -68,9 +69,12 @@ public class AdUnitIndex implements IndexAware<Long, AdUnitObject> {
         adUnitIds.forEach(u -> {
             AdUnitObject object = get(u);
             if (object == null) {
-                log.error("AdUnit Object not found : {}", u);
+                log.error("AdUnitObject not found: {}", u);
+                return;
             }
+            result.add(object);
         });
+
         return result;
     }
 }

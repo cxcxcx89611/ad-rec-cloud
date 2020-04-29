@@ -35,14 +35,14 @@ public class AdLevelDataHandler {
 
     public static void handleLevel2(AdCreativeTable adCreativeTable, OpType type) {
         CreativeObject creativeObject = new CreativeObject(
-                adCreativeTable.getAdId(),
+                adCreativeTable.getId(),
                 adCreativeTable.getName(),
                 adCreativeTable.getType(),
                 adCreativeTable.getMaterialType(),
                 adCreativeTable.getHeight(),
                 adCreativeTable.getWidth(),
                 adCreativeTable.getAuditStatus(),
-                adCreativeTable.getAdUrl());
+                adCreativeTable.getUrl());
         handleBinLogEvent(DataTable.of(CreativeIndex.class),creativeObject.getAdId(), creativeObject, type);
     }
 

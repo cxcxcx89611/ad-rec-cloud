@@ -88,12 +88,12 @@ public class SearchImpl implements ISearch {
 
             List<CreativeObject> creativeObjects = DataTable.of(CreativeIndex.class).fetch(adIds);
 
-            filterCreativeByAdSlot(creativeObjects, adSlot.getWidth(), adSlot.getWidth(), adSlot.getType());
+            filterCreativeByAdSlot(creativeObjects, adSlot.getWidth(), adSlot.getHeight(), adSlot.getType());
 
             adSlot2Ads.put(adSlot.getAdSlotCode(), buildCreativeResponse(creativeObjects));
         }
         log.info("fetch ads: {} --- {]", JSON.toJSONString(request), JSON.toJSONString(searchResponse));
-        return null;
+        return searchResponse;
     }
 
     private Set<Long> getORRelationUnitIds(Set<Long> adUnitIdSet,
@@ -159,7 +159,8 @@ public class SearchImpl implements ISearch {
         if(CollectionUtils.isEmpty(creativeObjects)) {
             return;
         }
-        CollectionUtils.filter(creativeObjects, creativeObject -> creativeObject.getAuditStatus().equals(CommonStatus.VALID)
+        CollectionUtils.filter(creativeObjects, creativeObject ->
+                creativeObject.getAuditStatus().equals(CommonStatus.VALID.getStatus())
                 && creativeObject.getWidth().equals(width)
                 && creativeObject.getHeight().equals(height)
                 && type.contains(creativeObject.getType()));

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82da6fe0-959b-4d26-a66c-a89587356130" name="Default Changelist" comment="" />
+    <list default="true" id="79f6e51a-aac2-429a-af92-46465f8dc556" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/imooc-ad-service/target/" />
-    <ignored path="$PROJECT_DIR$/ad-gateway/target/" />
     <ignored path="$PROJECT_DIR$/ad-eureka/target/" />
-    <ignored path="$PROJECT_DIR$/imooc-ad-service/ad-common/target/" />
     <ignored path="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/imooc-ad-service/ad-search/target/" />
+    <ignored path="$PROJECT_DIR$/ad-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/imooc-ad-service/ad-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/imooc-ad-service/ad-common/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,163 +21,119 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/impl/SearchImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1591">
-              <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+            <state relative-caret-position="202">
+              <caret line="163" column="58" lean-forward="true" selection-start-line="163" selection-start-column="58" selection-end-line="163" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/CommonStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/creative/CreativeObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0.jar!/org/apache/commons/collections4/CollectionUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="354" selection-start-line="354" selection-end-line="354" />
+              <folding>
+                <element signature="e#23185#23186#0" expanded="true" />
+                <element signature="e#23238#23239#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/media/AdSlot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/test/java/com/imooc/ad/search/SearchTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="35" column="61" lean-forward="true" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/resources/Request_1.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/resources/Request_2.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ad-gateway/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/ad-eureka/src/main/java/com/imooc/ad/EurekaApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/controller/SearchController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#886#910#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/advice/CommonResponseDataAdvice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-              <folding>
-                <element signature="e#707#731#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/client/SponsorClientHystrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/SearchResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/adplan/AdPlanIndex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-333">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/creativeunit/CreativeUnitIndex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/creative/CreativeIndex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-              <folding>
-                <element signature="e#1202#1203#0" expanded="true" />
-                <element signature="e#1243#1244#0" expanded="true" />
-              </folding>
+              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-        <option value="Enum" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>opTypeFieldSetMap</find>
-      <find>EventListener</find>
-      <find>buildRowData</find>
-      <find>ilistener</find>
-      <find>register</find>
-      <find>IncrementListener</find>
-      <find>AdCreativeTable</find>
-      <find>listenerMap</find>
+      <find>/ad-sponsor</find>
+      <find>objectMap</find>
+      <find>buildCreativeResponse</find>
+      <find>isAdSlotTypeOK</find>
+      <find>indexfile</find>
+      <find>IndexFileLoader</find>
+      <find>dataTable</find>
       <find>index</find>
-      <find>IgnoreResponseAdvice</find>
-      <find>getAdId</find>
-      <find>creativeUnitMap</find>
+      <find>AD_C</find>
+      <find>AD_CREATIVE</find>
+      <find>IndexFi</find>
+      <find>handleLevel</find>
+      <find>searchim</find>
+      <find>UnitIndex</find>
+      <find>unitIds</find>
+      <find>Adunitindex</find>
+      <find>Indexf</find>
+      <find>fetch(</find>
       <find>handleBinLogEvent</find>
-      <find>zuul</find>
-      <find>key</find>
-      <find>EnableZuulProxy</find>
-      <find>get</find>
-      <find>SearchResponse</find>
-      <find>CommonStatus</find>
-      <find>response</find>
-      <find>positionType</find>
-      <find>adslot</find>
-      <find>searchCont</find>
-      <find>sponsorClient</find>
-      <find>eureka-client</find>
-      <find>eureka-client-ad-sponsor</find>
-      <find>FeignClient</find>
-      <find>SponsorClient</find>
-      <find>Sup</find>
-      <find>searchResponse</find>
+      <find>fetchAds</find>
+      <find>filterCreativeByAdSlot</find>
     </findStrings>
     <dirStrings>
+      <dir>C:\project\imooc\imooc-ad-springcloud\imooc-ad-service\ad-search</dir>
       <dir>C:\project\imooc\imooc-ad-springcloud\imooc-ad-service</dir>
       <dir>C:\project\imooc\imooc-ad-springcloud</dir>
     </dirStrings>
@@ -184,76 +141,33 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table/AdUnitTable.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/test/java/com/imooc/ad/service/DumpDataService.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table/AdUnitKeywordTable.java" />
+        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/test/resources/application.yml" />
+        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/test/java/com/imooc/ad/search/SearchTest.java" />
+        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/DataTable.java" />
+        <option value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/dao/CreativeRepository.java" />
+        <option value="$PROJECT_DIR$/sql/imooc-ad-init-data.sql" />
+        <option value="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table/AdCreativeTable.java" />
         <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/handler/AdLevelDataHandler.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/IndexFileLoader.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/pom.xml" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/service/BinLogServiceTest.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/resources/template.json" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/dto/JsonTable.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/dto/Template.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/dto/ParseTemplate.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/dto/TableTemplate.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/dto/BinlogRowData.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/listener/Ilistener.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/TemplateHolder.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/constant/OpType.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/constant/Constant.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/sender/ISender.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/BinLogConfig.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/BinlogClient.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/utils/CommonUtils.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/Datalevel.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/DataLevel.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/listener/IncrementListener.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/dto/MySqlRowData.java" />
         <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/sender/index/IndexSender.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/runner/BinlogRunner.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/listener/AggregationListener.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/sender/kafka/KafkaSender.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/Media/AdSlot.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/Media/App.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/Media/Device.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/Media/Geo.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/feature/KeywordFeature.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/feature/ItFeature.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/feature/DistrictFeature.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/feature/FeatureRelation.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/SearchRequest.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/adunit/AdUnitConstants.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/adunit/AdUnitObject.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/ISearch.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/CommonStatus.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/SearchResponse.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/district/UnitDistrictIndex.java" />
+        <option value="$PROJECT_DIR$/sql/ad-sponsor.sql" />
         <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/adunit/AdUnitIndex.java" />
         <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/impl/SearchImpl.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/client/SponsorClient.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/client/SponsorClientHystrix.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/controller/SearchController.java" />
-        <option value="$PROJECT_DIR$/ad-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/resources/Request_1.json" />
+        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/resources/Request_2.json" />
       </list>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1935" />
-    <option name="height" value="1065" />
+    <option name="x" value="-15" />
+    <option name="y" value="-15" />
+    <option name="width" value="3873" />
+    <option name="height" value="2115" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -262,28 +176,65 @@
               <item name="imooc-ad" type="b2602c69:ProjectViewProjectNode" />
               <item name="imooc-ad-springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="imooc-ad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-ad-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ad-eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-ad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-ad-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ad-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-ad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-ad-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ad-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-ad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-ad-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ad-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-ad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-ad-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ad-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ad" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-ad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-ad-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-ad-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-ad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-ad-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587386012108" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../springboot_security_oauth" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588143266720" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\project\imooc\imooc-ad-springcloud\imooc-ad-service\ad-sponsor\src\test" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -297,16 +248,56 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinLogServiceTest">
-    <configuration name="BinLogServiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.imooc.ad.service.BinLogServiceTest" />
-      <module name="ad-search" />
+  <component name="RunManager" selected="Spring Boot.EurekaApplication">
+    <configuration name="DumpDataService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ad-sponsor" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.imooc.ad.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.ad.service" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.ad.service.DumpDataService" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ad-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.ad.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.ad.search" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.ad.search.SearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTest.testFetchAds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ad-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.ad.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.ad.search" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.ad.search.SearchTest" />
+      <option name="METHOD_NAME" value="testFetchAds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ad-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.ad.DashboardApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -341,7 +332,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinLogServiceTest" />
+        <item itemvalue="JUnit.SearchTest.testFetchAds" />
+        <item itemvalue="JUnit.SearchTest" />
+        <item itemvalue="JUnit.DumpDataService" />
       </list>
     </recent_temporary>
   </component>
@@ -350,26 +343,49 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="82da6fe0-959b-4d26-a66c-a89587356130" name="Default Changelist" comment="" />
-      <created>1585559191319</created>
+      <changelist id="79f6e51a-aac2-429a-af92-46465f8dc556" name="Default Changelist" comment="" />
+      <created>1587978628500</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585559191319</updated>
-      <workItem from="1585559194920" duration="307918000" />
+      <updated>1587978628500</updated>
+      <workItem from="1587978632910" duration="32247000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="307918000" />
+  <component name="TestHistory">
+    <history-entry file="SearchTest_testFetchAds - 2020.04.29 at 12h 28m 43s.xml">
+      <configuration name="SearchTest.testFetchAds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchTest_testFetchAds - 2020.04.29 at 12h 28m 51s.xml">
+      <configuration name="SearchTest.testFetchAds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchTest_testFetchAds - 2020.04.29 at 12h 43m 39s.xml">
+      <configuration name="SearchTest.testFetchAds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchTest_testFetchAds - 2020.04.29 at 12h 44m 57s.xml">
+      <configuration name="SearchTest.testFetchAds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchTest_testFetchAds - 2020.04.29 at 12h 58m 41s.xml">
+      <configuration name="SearchTest.testFetchAds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchTest_testFetchAds - 2020.04.29 at 13h 09m 39s.xml">
+      <configuration name="SearchTest.testFetchAds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchTest_testFetchAds - 2020.04.29 at 13h 09m 58s.xml">
+      <configuration name="SearchTest.testFetchAds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchTest_testFetchAds - 2020.04.29 at 13h 47m 17s.xml">
+      <configuration name="SearchTest.testFetchAds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchTest_testFetchAds - 2020.04.29 at 13h 53m 59s.xml">
+      <configuration name="SearchTest.testFetchAds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchTest_testFetchAds - 2020.04.29 at 13h 54m 22s.xml">
+      <configuration name="SearchTest.testFetchAds" configurationId="JUnit" />
+    </history-entry>
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="32247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="846" extended-state="6" />
@@ -377,30 +393,30 @@
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
-      <window_info id="Archetypes" weight="0.3293092" />
+      <window_info id="Archetypes" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Web" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24949698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" weight="0.32960895" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32960895" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50033534" side_tool="true" weight="0.32960895" />
-      <window_info anchor="bottom" id="Messages" weight="0.32960895" />
-      <window_info anchor="bottom" id="Java Enterprise" weight="0.32960895" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="AEM Console" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966466" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
-      <window_info anchor="right" id="Maven" weight="0.3293092" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="AEM" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -420,562 +436,401 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/entity/Creative.java</url>
-          <line>40</line>
+          <url>file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/impl/SearchImpl.java</url>
+          <line>90</line>
           <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/service/impl/CreativeServiceImpl.java</url>
-          <line>11</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/service/BinLogServiceTest.java</url>
-          <line>11</line>
-          <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/listener/Ilistener.java">
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/feature/DistrictFeature.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/dto/BinlogRowData.java">
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/test/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="459">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/conf/WebConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/DataLevel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/listener/IncrementListener.java">
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/test/java/com/imooc/ad/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/listener/AggregationListener.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/BufferedReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-326">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="212">
+          <caret line="589" selection-start-line="589" selection-end-line="589" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/dto/MySqlRowData.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.31/fastjson-1.2.31.jar!/com/alibaba/fastjson/parser/DefaultJSONParser.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="186">
+          <caret line="1456" selection-start-line="1456" selection-end-line="1456" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/constant/OpType.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.2.RELEASE/spring-boot-2.0.2.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="152">
+          <caret line="337" selection-start-line="337" selection-end-line="337" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table/AdCreativeTable.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.6.RELEASE/spring-test-5.0.6.RELEASE-sources.jar!/org/springframework/test/context/cache/DefaultCacheAwareContextLoaderDelegate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="127">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/mysql/constant/Constant.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test-autoconfigure/2.0.2.RELEASE/spring-boot-test-autoconfigure-2.0.2.RELEASE-sources.jar!/org/springframework/boot/test/autoconfigure/SpringBootDependencyInjectionTestExecutionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="54" column="55" lean-forward="true" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/nio/file/Paths.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/sender/index/IndexSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="93" column="59" selection-start-line="93" selection-start-column="59" selection-end-line="93" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/IndexAware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/advice/GlobalExceptionAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/creativeunit/CreativeUnitObject.java">
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/DConstant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/handler/AdLevelDataHandler.java">
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/creative/CreativeIndex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="76" column="44" lean-forward="true" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="127">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ad-gateway/src/main/java/com/imooc/ad/filter/AccessLogFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-gateway/src/main/java/com/imooc/ad/filter/PreRequestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-gateway/src/main/java/com/imooc/ad/ZuulGatewayApplication.java">
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/adplan/AdPlanIndex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/sender/ISender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/sender/kafka/KafkaSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/adunit/AdUnitConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/ISearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/constant/CommonStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/media/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/media/Device.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/media/Geo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/feature/ItFeature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/feature/FeatureRelation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/media/AdSlot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="11" column="66" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/DataTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="212">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/dao/CreativeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/test/java/com/imooc/ad/service/DumpDataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="49" column="58" lean-forward="true" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table/AdUnitTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table/AdPlanTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table/AdCreativeTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/sender/index/IndexSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.6.RELEASE/spring-aop-5.0.6.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="665" selection-start-line="665" selection-end-line="665" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.31/fastjson-1.2.31.jar!/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="376" column="5" lean-forward="true" selection-start-line="376" selection-start-column="5" selection-end-line="376" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1358#1359#0" expanded="true" />
-            <element signature="e#1418#1419#0" expanded="true" />
+            <element signature="e#12137#12138#0" expanded="true" />
+            <element signature="e#12184#12185#0" expanded="true" />
+            <element signature="e#14335#14336#0" expanded="true" />
+            <element signature="e#14392#14393#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/feature/DistrictFeature.java">
+    <entry file="file://$PROJECT_DIR$/sql/imooc-ad-init-data.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="43" />
+        <state relative-caret-position="187">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/ad-sponsor.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/ISearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="500" selection-start-line="500" selection-end-line="500" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/InitDestroyAnnotationBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="759" selection-start-line="759" selection-end-line="759" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="869" selection-start-line="869" selection-end-line="869" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/IndexFileLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/district/UnitDistrictIndex.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="63" column="54" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
+        <state relative-caret-position="135">
+          <caret line="227" selection-start-line="227" selection-end-line="227" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/handler/AdLevelDataHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/SearchResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/SearchRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/feature/KeywordFeature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0.jar!/org/apache/commons/collections4/CollectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="354" column="30" selection-start-line="354" selection-start-column="21" selection-end-line="354" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/keyword/UnitKeywordIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="88" column="40" lean-forward="true" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/adunit/AdUnitIndex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="1190">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#579#580#0" expanded="true" />
             <element signature="e#620#621#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar!/com/netflix/hystrix/contrib/javanica/command/MethodExecutionAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar!/com/netflix/hystrix/contrib/javanica/command/AbstractHystrixCommand.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/media/AdSlot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0.jar!/org/apache/commons/collections4/CollectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="354" selection-start-line="354" selection-end-line="354" />
+          <folding>
+            <element signature="e#23185#23186#0" expanded="true" />
+            <element signature="e#23238#23239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/creative/CreativeObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="220">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/CommonStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/adplan/AdPlanObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/adunit/AdUnitObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="55" column="4" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/creative/CreativeIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-          <folding>
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/creativeunit/CreativeUnitIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/adplan/AdPlanIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-333">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/SearchResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/client/SponsorClientHystrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/client/SponsorClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/advice/CommonResponseDataAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding>
-            <element signature="e#707#731#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/controller/SearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#886#910#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/impl/SearchImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1591">
-          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+        <state relative-caret-position="202">
+          <caret line="163" column="58" lean-forward="true" selection-start-line="163" selection-start-column="58" selection-end-line="163" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/test/java/com/imooc/ad/search/SearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="35" column="61" lean-forward="true" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/resources/Request_1.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="211">
+          <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ad-gateway/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/resources/Request_2.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="398">
+          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-eureka/src/main/java/com/imooc/ad/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>ad-sponsor</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.19384615" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

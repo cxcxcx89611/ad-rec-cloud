@@ -25,9 +25,9 @@ public class IndexSender implements ISender {
         if (DataLevel.LEVEL2.getLevel().equals(level)) {
             Level2RowData(rowData);
         } else if (DataLevel.LEVEL3.getLevel().equals(level)) {
-
+            Level3RowData(rowData);
         } else if (DataLevel.LEVEL4.getLevel().equals(level)) {
-
+            Level4RowData(rowData);
         } else {
             log.error("MysqlRowData error: {}", JSON.toJSONString(rowData));
         }
@@ -60,14 +60,14 @@ public class IndexSender implements ISender {
                 adPlanTableList.add(adPlanTable);
             }
             adPlanTableList.forEach(p -> AdLevelDataHandler.handleLevel2(p, rowData.getOpType()));
-        } else if (rowData.getTableName().equals(Constant.AD_PLAN_TABLE_INFO.TABLE_NAME)) {
+        } else if (rowData.getTableName().equals(Constant.AD_CREATIVE_TABLE_INFO.TABLE_NAME)) {
             List<AdCreativeTable> adCreativeTableList = new ArrayList<>();
             for (Map<String, String> filedValueMap : rowData.getFieldValueMap()) {
                 AdCreativeTable adCreativeTable = new AdCreativeTable();
                 filedValueMap.forEach((k, v) -> {
                     switch (k) {
                         case Constant.AD_CREATIVE_TABLE_INFO.COLUMN_ID:
-                            adCreativeTable.setAdId(Long.valueOf(v));
+                            adCreativeTable.setId(Long.valueOf(v));
                             break;
                         case Constant.AD_CREATIVE_TABLE_INFO.COLUMN_HEIGHT:
                             adCreativeTable.setHeight(Integer.valueOf(v));
@@ -85,7 +85,7 @@ public class IndexSender implements ISender {
                             adCreativeTable.setType(Integer.valueOf(v));
                             break;
                         case Constant.AD_CREATIVE_TABLE_INFO.COLUMN_URL:
-                            adCreativeTable.setAdUrl(v);
+                            adCreativeTable.setUrl(v);
                             break;
                     }
                 });

@@ -34,10 +34,10 @@ public class ParseTemplate {
             for(JsonTable.Column column : table.getInsert()) {
                 getAndCreateIfNeed(OpType.ADD, opTypeFieldSetMap, ArrayList::new).add(column.getColumn());
             }
-            for(JsonTable.Column column : table.getInsert()) {
+            for(JsonTable.Column column : table.getUpdate()) {
                 getAndCreateIfNeed(OpType.UPDATE, opTypeFieldSetMap, ArrayList::new).add(column.getColumn());
             }
-            for(JsonTable.Column column : table.getInsert()) {
+            for(JsonTable.Column column : table.getDelete()) {
                 getAndCreateIfNeed(OpType.DELETE, opTypeFieldSetMap, ArrayList::new).add(column.getColumn());
             }
         }

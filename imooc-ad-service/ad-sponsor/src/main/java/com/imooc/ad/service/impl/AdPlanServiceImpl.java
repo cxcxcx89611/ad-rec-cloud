@@ -61,7 +61,7 @@ public class AdPlanServiceImpl implements IAdPlanService {
         if(!request.validate()){
             throw new AdException(Constants.ErrorMsg.REQUEST_PARAM_ERROR);
         }
-        return planRepository.findAllbyIdInAndUserId(request.getIds(), request.getUserId());
+        return planRepository.findAllByIdInAndUserId(request.getIds(), request.getUserId());
     }
 
     @Override
