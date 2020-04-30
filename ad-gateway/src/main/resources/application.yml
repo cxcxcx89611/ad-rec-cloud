@@ -1,17 +1,15 @@
 server:
-  port:
-    9000
+  port: 9000
 spring:
   application:
     name: ad-gateway
-    allow-bean-definition-overriding: true
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8000/eureka/
+      defaultZone: http://127.0.0.1:8000/eureka/
 
 zuul:
-  prefix: /immoc
+  prefix: /imooc
   routes:
     sponsor:
       path: /ad-sponsor/**
