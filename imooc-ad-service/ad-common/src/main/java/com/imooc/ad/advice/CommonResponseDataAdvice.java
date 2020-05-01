@@ -1,4 +1,4 @@
-package com.imooc.ad.advice;
+package com.imooc.advice;
 
 import com.imooc.ad.annotation.IgnoreResponseAdvice;
 import com.imooc.ad.vo.CommonResponse;
