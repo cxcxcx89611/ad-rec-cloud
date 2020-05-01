@@ -15,7 +15,7 @@ import com.imooc.ad.index.creativeunit.CreativeUnitIndex;
 import com.imooc.ad.index.creativeunit.CreativeUnitObject;
 import com.imooc.ad.index.interest.UnitItIndex;
 import com.imooc.ad.index.keyword.UnitKeywordIndex;
-import com.imooc.ad.mysql.constant.OpType;
+import com.imooc.ad.constant.OpType;
 import com.imooc.ad.utils.CommonUtils;
 import lombok.extern.slf4j.Slf4j;
 

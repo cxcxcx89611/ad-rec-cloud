@@ -5,7 +5,7 @@ import com.imooc.ad.dump.DConstant;
 import com.imooc.ad.dump.table.*;
 import com.imooc.ad.handler.AdLevelDataHandler;
 import com.imooc.ad.index.adunit.AdUnitIndex;
-import com.imooc.ad.mysql.constant.OpType;
+import com.imooc.ad.constant.OpType;
 import org.springframework.context.annotation.DependsOn;
 import org.springframework.stereotype.Component;
 
